@@ -1,0 +1,5 @@
+auto pos = temp.find_first_not_of(' ');
+auto str = temp.substr(pos != string::npos ? pos : 0);
+int idtemp = stoi(str);
+
+-> string with space to int
