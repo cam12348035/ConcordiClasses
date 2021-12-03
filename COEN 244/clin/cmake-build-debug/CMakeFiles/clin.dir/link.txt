@@ -1,0 +1,3 @@
+C:\Users\camgr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\clin.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\clin.dir/objects.a @CMakeFiles\clin.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\clin.dir/objects.a -Wl,--no-whole-archive  -o clin.exe -Wl,--out-implib,libclin.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\clin.dir\linklibs.rsp
